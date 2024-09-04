@@ -4,16 +4,18 @@ public class Car
 {
     public string Model;
     public string Color;
+    public double Mileage;
     public string Brand;
     public int YearOfProduction;
-    public double Mileage;
+    public double EngineSize;
 
-    public Car(string model, string color, string brand, int yearOfProduction, double mileage)
+    public Car(string model, string color, double mileage, string brand, int yearOfProduction, double enginesize)
     {
-        this.Model = model;
-        this.Color = color;
-        this.Brand = brand;
-        this.YearOfProduction = yearOfProduction;
-        this.Mileage = mileage;
+        Model = model;
+        Color = color;
+        Brand = brand;
+        YearOfProduction = yearOfProduction;
+        Mileage = mileage;
+        EngineSize = enginesize;
     }
 }
